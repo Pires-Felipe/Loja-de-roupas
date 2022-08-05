@@ -1,33 +1,149 @@
-#logotipo-header{
-    width: 120px;
-    height: 60px;
-    position: absolute;
+header {
+	background-color: #e3e3e3 ;
+	height: 605px;
 }
 
 nav {
     width: 100%;
-    height: 80px;
-    background: #decaca;
+    height: 80px; 
+    background: #e3e3e3;
 }
 
 ul {
-    margin-left: 55%;
-    margin-top: 15px;
+    margin-left: 45%;
+    margin-top: 18px;
     position: absolute;
 }
 
 li {
     display: inline;
-    font-size: 25px;
-    margin-left: 30px;
+    font-size: 22px;
+    margin-left: 35px;
+    font-weight: bold;
 }
 
 li a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#ilustration {
+   width: 350px;
+   height: auto;
+   margin-left: 55%;
+}
+
+
+.texto-header {
+   width: 45%;
+   margin-top: -300px;
+   margin-left: 50px
+}
+
+
+.texto-header h1 {
+   color: black;
+   font-size: 55px;
+   font-family: garamond;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+
+p:nth-child(0) {
+    font-size: 24px;
+}
+
+
+#acesso {
+   background: black;
+   color: #fefefe;
+   font-size: 18px;
+   padding: 7px;
+}
+ 
+ 
+ 
+/* main */
+
+.produtos {
+   width: 100%;
+}
+
+
+.baner-r-f {
+   height: 250px;
+   background: #a58cd1;
+}
+
+.baner-r-m {
+   height: 250px;
+   background: #275df2;
+}
+
+.baner-c-f {
+   height: 250px;
+   background: #a58cd1;
+}
+
+.baner-c-m {
+   height: 250px;
+   background: #275df2;
 }
 
 
 
 
+.h1-baner {
+   font-size: 67px;
+   color: #fefefe;
+   width: 350px;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 1.8px;
+   margin: 55px 0px 0px 80px;
+   position: absolute;
+}
+
+.baner-r-f  img {
+   width: 420px;
+   margin-top: -45px;
+   margin-left: 48%;
+}
+
+.caixa-flex-card {
+   display: flex;
+   background: ;
+   padding: 10px;
+   margin-top: 25px;
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 270px;
+   margin-left: 20px;
+   border: 1px solid black;
+   border-radius: 10px;
+   padding: 8px;
+   background: #e6ebed;
+}
+
+.card img {
+   width: 250px
+}
+
+.card p{
+   font-size: 22px;
+   text-align: center;
+   margin-top: 8px;
+}
+
+.card h3 {
+   font-size: 35px;
+   font-weight: bold;
+   margin: 8px 0px 10px 0px;
+}
