@@ -2,11 +2,12 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>LOJA VIRTUAL - NAME</title>
+    <title>FASM STORE</title>
 </head>
 <body>
 <header>
@@ -15,9 +16,9 @@
             <nav class="navegacao-menu">
                <ul>
                   <li><a href="#">Home</a></li>
-                  <li><a href="#">Produtos</a></li>
-                  <li><a href="#">Contato</a></li>
-                  <li><a href="#">Sobre</a></li>
+                  <li><a href="#produtos">Produtos</a></li>
+                  <li><a href="#contato">Contato</a></li>
+                  <li><a href="#sobre">Sobre</a></li>
                </ul>
             </nav>
            <h1><img id="ilustration" src="./img/ilus.png" alt="imagem ilustrativa"></h1>
@@ -29,7 +30,7 @@
         </div>
 </header>
 <main>
-   <section class="produtos">
+   <section id="produtos" class="produtos">
       <div class="roupas-feminina">
          <div class="baner-r-f">
             <h1 class="h1-baner">roupas<br>femininas</h1>
@@ -156,7 +157,7 @@
          </div>
       </div>
    </section>
-   <section class="info">
+   <section id="sobre" class="info">
          <div class="missao">
             <img src="./img/missao.png" alt="missao-img">
             <h1>Nossa Missão</h1>
@@ -173,7 +174,7 @@
             <p>Ser uma loja de referência em roupas com estilo, conforto e segurança.</p>
          </div>
       </section>
-   <section class="contato">
+   <section id="contato" class="contato">
       <div class="formulario">
          <h1 id="h1-contato">CONTATO </h1>
          <form action="contact" method="get">
@@ -252,7 +253,4 @@
    <p class="copy">&copy; Copyright Fasm Store - 2022</p>
 </footer>
 </body>
-<script>
-   alert("Site em desenvolvimento");
-</script>
 </html>
