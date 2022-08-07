@@ -33,7 +33,14 @@ li a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+li a:hover {
+   color: blueviolet;
+   text-decoration: underline;
+   font-size: 26px;
 }
 
 #ilustration {
@@ -44,9 +51,9 @@ li a {
 }
 
 .texto-header {
-   width: 45%;
+   width: 43%;
    margin-top: 150px;
-   margin-left: 50px
+   margin-left: 40px
 }
 
 .texto-header h1 {
@@ -73,6 +80,11 @@ li a {
    border-radius: 20px;
    font-size: 18px;
    padding: 7px;
+}
+
+#acesso:hover {
+   background: #353236;
+   transform: scale(1.1);
 }
 
 .info {
@@ -159,14 +171,14 @@ li a {
    flex-direction: column;
    align-items: center;
    width: 200px;
-   border: 1px solid black;
-   border-radius: 10px;
+   border-radius: 15px;
    padding: 8px;
-   background: #e6ebed;
+   background: #e0e0e0;
 }
 
 .card img {
    width: 200px;
+   border-radius: 20px;
 }
 
 .card p{
@@ -269,6 +281,7 @@ form button {
    font-size: 40px;
    margin: 90px 0px 15px 0px;
 }
+
 .mapa p {
    margin-block-end: 25px;
 }
@@ -303,7 +316,6 @@ footer div {
    font-size: 19px;
    color: #8c8c8b;
 }
-
 
 footer div ul li:nth-child(1) {
    font-size: 23px;
