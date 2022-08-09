@@ -93,7 +93,8 @@ li a:hover {
    justify-content: center;
    align-items: center;
    margin-top: 70px;
-   background: linear-gradient(#f2f2f2, #ebeae8)
+   background: linear-gradient(#f2f2f2, #ebeae8);
+   padding: 50px 0px;
 }
 
 .info div {
@@ -103,13 +104,13 @@ li a:hover {
 }
 
 .info div h1 {
-   font-size: 25px;
+   font-size: 26px;
    font-weight: bold;
    margin: 10px 0px 10px 0px;
 }
 
 .info div p {
-   font-size: 18px;
+   font-size: 20px;
    margin-block-end: 40px;
 }
 
@@ -120,7 +121,7 @@ li a:hover {
 
 .baner-r-f {
    height: 250px;
-   background: #803ad6;
+   background: #bd36f7;
    margin-top: 20px;
 }
 
@@ -176,21 +177,28 @@ li a:hover {
    background: #ced6fa;
 }
 
+.card:hover {
+   transform: scale(1.1);
+   background: #ebedec;
+   border: 1px solid #a0a3a1;
+}
+
 .card img {
-   width: 250px;
-   border-radius: 20px;
+   width: 97%;
+   border-radius: 12px;
 }
 
 .card p{
    font-size: 22px;
    text-align: center;
    margin-top: 8px;
+   margin-block-end: 10px;
 }
 
 .card h3 {
    font-size: 35px;
    font-weight: bold;
-   margin: 8px 0px 10px 0px;
+   margin: auto 0px 10px 0px;
 }
 
 .contato {
@@ -286,9 +294,6 @@ form button {
    margin-block-end: 25px;
 }
 
-.mapouter {
-   margin-block-end: 20px;
-}
 
 footer {
    display: flex;
